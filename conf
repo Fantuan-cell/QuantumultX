@@ -1,0 +1,7 @@
+
+hostname = *.pangolin-sdk-toutiao.*
+
+# 去广告
+^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/MiMiRead
+
+
