@@ -10,3 +10,5 @@ body=body.replacebody=body.replace(/vip_end_date\":\d+/g,'vip_end_date":58811322
 
 $done(body); 
 
+
+^http:\/\/api\.8cdn\.cloud:2020\/v1\/my\/info url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/MiMIRead
