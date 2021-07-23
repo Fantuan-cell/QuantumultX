@@ -5,7 +5,7 @@
 
 
 var body = $response.body; 
-body=body.replacebody=body.replace(/vip_end_date\":\d+/g,'vip_end_date":19999999');
+body=body.replacebody=body.replace(/vip_end_date\": \d+/g,'vip_end_date":19999999');
 
 $done(body); 
 
