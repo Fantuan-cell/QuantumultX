@@ -4,21 +4,9 @@
 */
 
 
-let obj = JSON.parse($response.body);
 
-obj={
-{
-  "code": 200,
-  "msg": "",
-  "data": {
-    "uuid": "2105111eafc4420a",
-    "phone": "13219952085",
-    "email": null,
-    "read_time": 142222483,
-    "nickname": "是奈落呀",
-    "vip_end_date": 5881132210000,
+var body = $response.body; 
+body=body.replacebody=body.replace(/vip_end_date\":\d+/g,'vip_end_date":5881132210000');
 
-  }
-}
-}
-$done({body: JSON.stringify(obj)});
+$done(body); 
+
