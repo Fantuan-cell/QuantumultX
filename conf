@@ -1,5 +1,5 @@
 
-hostname = *.pangolin-sdk-toutiao.*, api.8cdn.cloud:2020/v1/my/info
+hostname = *.pangolin-sdk-toutiao.*, api.8cdn.cloud:2020
 
 # 去广告
 ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/TouTiaoAd
