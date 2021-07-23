@@ -5,7 +5,7 @@
 
 
 var body = $response.body; 
-body=body.replacebody=body.replace(/vip_end_date\":\w+/g,'message":1999999999');
+body=body.replacebody=body.replace(/vip_end_date\":\d+/g,'message":1999999999');
 
 $done(body); 
 
