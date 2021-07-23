@@ -1,0 +1,14 @@
+let obj = JSON.parse($response.body);
+
+obj={
+  {
+  "data": {
+    "nickname": "奈落呀!",
+    "intro": "奈落呀!",
+    "vip_end_date": 1999999999,
+  }
+}
+
+}
+
+$done({body: JSON.stringify(obj)});
