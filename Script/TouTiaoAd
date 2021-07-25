@@ -1,7 +1,7 @@
 
-var body = $response.body; //声明一个变量body并以响应消息体赋值
+var body = $response.body; 
 body=body.replacebody=body.replace(/message\":\w+/g,'message":{"00000000"}');
-#这就是将a\b\c的值修改为1\1\0并以响应消息体赋值的过程，将abc三者替换成你需要改的就行,记得在"前加\反斜杠
-$done(body); //结束修改
+
+$done(body); 
 
 
