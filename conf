@@ -1,7 +1,5 @@
 
-hostname = *.pangolin-sdk-toutiao.*, api.8cdn.cloud :2020/v1/my/info, *.xmind.*, license.pdfexpert.com
-
-
+hostname = *.pangolin-sdk-toutiao.*, api.8cdn.cloud :2020/v1/my/info, *.xmind.*, license.pdfexpert.com, ipadcms.caixin.com/api/article/getMagazineArticleList/*
 # 小小影视广告
 ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Script/TouTiaoAd
 # 咪咪阅读
@@ -10,3 +8,5 @@ hostname = *.pangolin-sdk-toutiao.*, api.8cdn.cloud :2020/v1/my/info, *.xmind.*,
 ^https?:\/\/.*\.xmind\..*\/_res\/devices url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Script/XMind
 # Scanner Pro
 ^https\:\/\/license\.pdfexpert\.com\/api\/2\.0\/scanner\/subscription\/refresh url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Script/Scanner%20Pro
+# CxMagazine
+^http\:\/\/ipadcms\.caixin\.com\/api\/article\/getMagazineArticleList\/* url-script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Script/CxMagazine
