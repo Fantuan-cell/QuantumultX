@@ -2,7 +2,7 @@
 hostname = *.pangolin-sdk-toutiao.*, api.8cdn.cloud :2020/v1/my/info
 
 
-# 去广告
+# 小小影视广告
 ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Script/TouTiaoAd
 # 咪咪阅读
 ^http:\/\/api\.8cdn\.cloud:2020\/v1\/my\/info url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Script/MiMiRead
