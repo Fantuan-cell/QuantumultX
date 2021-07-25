@@ -1,8 +1,0 @@
-/*
-#咪咪阅读
-
-*/
-
-
-body = $response.body.replace(/vip_end_date":\d/g, 'vip_end_date": 5881132210000');
-$done({body});
