@@ -1,0 +1,50 @@
+#高德地图广告
+^http:\/\/ems\.youku\.com\/imp\? url reject
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+ url reject
+#携程广告
+#hostname=ma-adx.ctrip.com,m.ctrip.com
+^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif url reject
+^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds url reject
+^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ url reject
+
+#qq空间广告屏蔽
+^http:\/\/c\.gdt\.qq\.com\/gdt_clickwap\.fcg\?viewid url reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.+\.jpg url reject
+^http:\/\/v\.gdt\.qq\.com\/gdt_stats\.fcg\?viewid url reject
+^http:\/\/rpt\.gdt\.qq\.com\/creative_view\?viewid url reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+ url reject
+^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ url reject
+
+#腾讯视频广告屏蔽
+^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 url reject
+^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 url reject
+^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg url reject
+
+#京东开屏广告屏蔽(改写自surge)
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-array
+#百度网盘广告屏蔽
+http:\/\/rp\.hpplay\.cn\/logouts url reject
+https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info url reject
+https:\/\/pan\.baidu\.com\/rest\/.+\/pcs\/adx url reject
+https:\/\/pan\.baidu\.com\/api\/useractivity\/activity url reject
+https?:\/\/pan\.baidu\.com\/act\/.+\/bchannel\/list url reject
+https:\/\/sofire\.baidu\.com\/ios\/.+ url reject
+https:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js url reject
+https:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/index\.html url reject
+https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info url reject
+https:\/\/staticsns\.cdn\.bcebos\.com\/amis\/.+/banner.png url reject
+https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/ url reject
+https:\/\/pan\.baidu\.com\/rest\/2.0\/pcs\/adv\? url reject
+https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?(vip|from) url reject
+
+#百度贴吧(by TributePaulWalker)
+#hostname=*.tieba.baidu.com
+^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule url reject
+^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo url reject
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule url reject
+#mine
+^https:\/\/pn\.baidu\.com\/iad\/.+\.json url reject
+^https:\/\/feed-image\.baidu\.com\/0\/pic\/ url reject
+^http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule) url reject
