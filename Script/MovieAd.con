@@ -1,0 +1,18 @@
+# > 剧迷tv
+host, gimy.cm, direct
+host, gimytv.com, direct
+
+
+# > 低端影视
+host, ddrk.me, direct
+# > 真不卡
+host-keyword, zhenbuka3, direct
+# > 奈非
+host, www.nfmovies.com, direct
+
+# > 去广告
+host-keyword, cream.lichengyu.com, reject
+host, kmp.nbann.com, reject
+host-keyword, www.nfmovies.com/data/jsad.js, reject
+host-keyword, m4ufree, reject
+host-keyword, s.pc.qq.com/tousu, reject
