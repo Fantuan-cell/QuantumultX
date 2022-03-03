@@ -15,4 +15,4 @@ host-keyword, cream.lichengyu.com, reject
 host, kmp.nbann.com, reject
 host-keyword, www.nfmovies.com/data/jsad.js, reject
 host-keyword, m4ufree, reject
-host-keyword, s.pc.qq.com/tousu/img, reject
+host, s.pc.qq.com, reject
