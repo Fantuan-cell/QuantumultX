@@ -1,0 +1,9 @@
+# 影视去广告
+
+
+hostname = *.bde4.*
+
+
+# >  bde4.cc 哔滴影视
+https://(www\.bde4\.cc|www\.mp4er\.*|www\.btbdys\.com)/.*?play/.*?\.htm.* url response-body <head> response-body <head><script type="text/javascript" src="//limbopro.com/Adguard/bde4.play.v3.js"></script><link rel="stylesheet" href="https://limbopro.com/CSS/bde4.css" type="text/css">
+(btbdys)(?!.*?(\.css.*|\.js.*|\.jpeg|cdn-cgi|\.ico|\.png|\.gif)).*  url response-body </body> response-body <script type="text/javascript" src="//limbopro.com/Adguard/bde4.js"></script><link rel="stylesheet" href="https://limbopro.com/CSS/bde4.css" type="text/css"></body>
