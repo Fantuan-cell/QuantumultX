@@ -14,7 +14,7 @@ hostname = *.bilibili.com
 
 
 var nailuo = $request.headers;
-nailuo['User-Agent'] = 'User-Agent: bili-universal/66200200 CFNetwork/1331.0.5 Darwin/21.4.0 os/ios model/iPhone 11 mobi_app/iphone build/66200200 osVer/15.4 network/2 channel/AppStore';
+nailuo['User-Agent'] = 'User-Agent: bili-universal/66200200 Cronet/81.4044.156 Darwin/21.4.0';
 $done({
     headers : nailuo
 });
