@@ -1,0 +1,7 @@
+hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
+
+# TikTok By xiaoadou
+#TW JP KR(韩国)   US
+(?<=_region=)CN(?=&) url 307 JP
+(?<=&mcc_mnc=)4 url 307 2
+^(https?:\/\/(dm|tnc)[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
