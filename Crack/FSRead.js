@@ -13,9 +13,9 @@
 
 [rewrite_local]
 
-^https?:\/\/g20.manmeng168.com\/v1\/book\/chapter_content* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/FSRead.js 
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com url reject
 [mitm] 
-hostname = g20.manmeng168.com
+hostname = api-access.pangolin-sdk-toutiao.com
 
 *
 *
@@ -24,13 +24,4 @@ hostname = g20.manmeng168.com
 
 
 
-var body = $response.body;
-var hack_1 = /flag": true/g;
-var hack_2 = /has_new": true/g;
-body = body.replace(hack_1,'flag": false');
-body = body.replace(hack_2,'has_new": false');
-
-$done({
-    body
-});
 
