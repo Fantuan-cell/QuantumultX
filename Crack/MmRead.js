@@ -33,6 +33,5 @@ var hack = /vip_end_date":\d/g;
 body = body.replace(hack,'vip_end_date": 29990909');
 $done({
     body
-        
-});
+        });
 
