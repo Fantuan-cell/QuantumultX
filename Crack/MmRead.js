@@ -14,8 +14,8 @@
 [rewrite_local]
 
 #  开启脚本即是VIP
-^https?:\/\/mmapi02.toolcdn.com\/v1\/my\/info url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
-^https?:\/\/mmapi02.toolcdn.com\/v1\/my\/vip_detail url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
+^https?:\/\/mmapi02.toolcdn.com\/v1\/my* url script-response-body https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
+
 [mitm] 
 
 hostname = mmapi02.toolcdn.com
