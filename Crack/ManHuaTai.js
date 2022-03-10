@@ -14,14 +14,14 @@
 
 [rewrite_local]
 
-#  开启脚本即是VIP
+#  微信小程序漫画台Lite免付费观看
 
-^https:\/\/userpurchased-globalapi\.yyhao\.com\/v1\/getnewpayprice* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/ManHuaTai.js
+^https:\/\/comic\.321mh\.com\/app_api\/v5\/getcomicinfo_body* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/ManHuaTai.js
 
 
 
 [mitm] 
-hostname = userpurchased-globalapi.yyhao.com
+hostname = comic.321mh.com
 
 *
 *
@@ -32,10 +32,10 @@ hostname = userpurchased-globalapi.yyhao.com
 
 var body = $response.body;
 var hack1 = /price":\d+/g;
-var hack2 = /cost_coin":\d+/g;
-var hack3 = /cost_diamonds":\d+/g;
+var hack2 = /download_price":\d+/g;
+var hack3 = /isbuy":\d+/g;
 body = body.replace(hack1,'price":0');
-body = body.replace(hack2,'cost_coin":0').replace(hack3,'cost_diamonds":0')
+body = body.replace(hack2,'download_price":0').replace(hack3,'isbuy":1');
 
 $done({
     body
