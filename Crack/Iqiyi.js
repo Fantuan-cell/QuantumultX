@@ -9,7 +9,7 @@
 
 #
 
-^https?:\.iqiyi\.com* url script-request-header  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/Iqiyi.js 
+^https?:*\.iqiyi\.com* url script-request-header  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/Iqiyi.js 
 
 
 
