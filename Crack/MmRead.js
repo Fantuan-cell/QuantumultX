@@ -16,10 +16,12 @@
 
 #  开启脚本即是VIP
 
-^https:*toolcdn\.com* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
 
+
+^https:\/\/mmapi\.toolcdn\.com* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
+^https:\/\/mmapi02\.toolcdn\.com* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
 [mitm] 
-hostname = *.toolcdn.com
+hostname = mmapi.toolcdn.com, mmapi02.toolcdn.com
 
 *
 *
@@ -34,6 +36,5 @@ body = body.replace(hack,'vip_end_date":20990909');
 $done({
     body
 });
-
 
 
