@@ -1,4 +1,0 @@
-var body = $response.body; 
-body=body.replacebody=body.replace(/isfree":\d+/g,'isfree":1');
-
-$done(body); 
