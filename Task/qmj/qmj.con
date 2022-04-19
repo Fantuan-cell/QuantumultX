@@ -13,8 +13,5 @@ hostname = *1000qm.vip
 [rewrite_local]
 
 
-^https?:\/\/www\.1000qm\.vip\/home\.php\?mod=space.* url script-request-header https://github.com/Fantuan-cell/QuantumultX/tree/main/Task/qmj/qmj.cookie.js
+^https?:\/\/www\.1000qm\.vip\/home\.php\?mod=space.* url script-request-header https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Task/qmj/qmj.cookie.js
 
-
-[task_local]
-1 0 * * * https://github.com/Fantuan-cell/QuantumultX/tree/main/Task/qmj/qmj.js
