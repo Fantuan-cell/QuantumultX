@@ -6,11 +6,11 @@
 ```properties
 [rewrite_remote]
 //将该URl ,放入重写-引用,用于获取Cookie,获取后即可禁用
-https://github.com/Fantuan-cell/QuantumultX/tree/main/Task/qmj/qmj.con
+https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Task/qmj/qmj.con
 
 [task_local]
 //在构造HTTP请求中,选择以文本方式添加,复制下面的
-23 8 * * * https://github.com/Fantuan-cell/QuantumultX/tree/main/Task/qmj/qmj.js, tag=阡陌居签到, img-url=https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Img/qmj.png, enabled=true
+23 8 * * * https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Task/qmj/qmj.js, tag=阡陌居签到, img-url=https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Img/qmj.png, enabled=true
 
 ```
 
