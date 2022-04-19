@@ -1,0 +1,20 @@
+/*
+请先登录
+http://www.1000qm.vip/member.php?mod=logging&action=login
+再访问
+https://www.1000qm.vip/home.php?mod=space&do=profile&mobile=2
+即可自动获取Cookie
+*/
+
+[mitm]
+hostname = *1000qm.vip
+
+
+[rewrite_local]
+
+
+^https?:\/\/www\.1000qm\.vip\/home\.php\?mod=space.* url script-request-header https://github.com/Fantuan-cell/QuantumultX/tree/main/Task/qmj/qmj.cookie.js
+
+
+[task_local]
+1 0 * * * https://github.com/Fantuan-cell/QuantumultX/tree/main/Task/qmj/qmj.js
