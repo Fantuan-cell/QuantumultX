@@ -133,7 +133,7 @@ function prestige() {
         }
     })
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 20; i++) {
         a = randomNum(130000,139105)
         url = "http://www.1000qm.vip/home.php?mod=space&uid="+a;
         console.log(url)
