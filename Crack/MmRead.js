@@ -20,7 +20,7 @@
 
 ^https:\/\/mmapi\.toolcdn\.com* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
 ^https:\/\/mmapi02\.toolcdn\.com* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
-^https:\/\/yeguo\.236api\.com* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
+^https:\/\/yeguo\.236api\.com/v1/my/info url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
 [mitm] 
 hostname = mmapi.toolcdn.com, mmapi02.toolcdn.com
 
@@ -33,7 +33,7 @@ hostname = mmapi.toolcdn.com, mmapi02.toolcdn.com
 
 var body = $response.body;
 var hack = /vip_end_date":\d+/g;
-body = body.replace(hack,'vip_end_date":20990909');
+body = body.replace(hack,'vip_end_date":99999999');
 $done({
     body
 });
