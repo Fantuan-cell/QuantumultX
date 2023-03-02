@@ -20,6 +20,7 @@
 
 ^https:\/\/mmapi\.toolcdn\.com* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
 ^https:\/\/mmapi02\.toolcdn\.com* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
+^https:\/\/yeguo\.236api\.com* url script-response-body  https://raw.githubusercontent.com/Fantuan-cell/QuantumultX/main/Crack/MmRead.js
 [mitm] 
 hostname = mmapi.toolcdn.com, mmapi02.toolcdn.com
 
